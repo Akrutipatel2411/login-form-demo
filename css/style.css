@@ -133,7 +133,7 @@ input[type="password"] {
 
 }
 
-button {
+.log{
     font-family: 'Poppins';
     font-size: 16px;
     color: #fff;
@@ -143,6 +143,7 @@ button {
     height: 50px;
     border: none;
     background: none;
+    cursor: pointer;
 }
 
 .text-line {
@@ -203,4 +204,14 @@ button {
     font-size: 14px;
     line-height: 1.5;
     color: #333;
+    
+}
+input:focus
+{
+    outline: none;
+}
+.log:focus
+{
+    outline: none;
+   
 }
